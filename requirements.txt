@@ -1,0 +1,17 @@
+langgraph
+langchain
+langchain-openai
+langchain-community
+langchain-pinecone
+pinecone
+langchain-tavily
+python-dotenv
+html2text
+aiohttp
+beautifulsoup4
+fastapi
+uvicorn[standard]
+langsmith
+motor
+python-jose[cryptography]
+langchain-experimental
