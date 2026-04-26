@@ -173,8 +173,10 @@ source .venv/bin/activate
 ### Step 3 — Install dependencies
 
 ```bash
-uv add -r requirements.txt
+uv sync
 ```
+
+> `uv sync` reads `pyproject.toml` (the source of truth for this project), resolves all dependencies, and installs them into the virtual environment. A `uv.lock` lockfile is created on first run and committed to pin exact versions. Use `uv sync --frozen` in CI/Docker to fail fast if the lockfile is out of date.
 
 ### Step 4 — Configure environment variables
 
