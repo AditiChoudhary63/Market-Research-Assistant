@@ -65,7 +65,7 @@ Product and GTM teams struggle to stay current on competitor activity and market
 ## Project Structure
 
 ```
-ai-assessment/
+market-research-assistant/
 ├── main.py          # Entry point — starts uvicorn
 ├── api.py           # FastAPI app: endpoints, auth, MongoDB logic
 ├── ui.py            # Embedded single-page HTML/JS frontend
@@ -157,7 +157,7 @@ The platform supports real-time SSE (Server-Sent Events) streaming via `POST /re
 
 ```bash
 git clone <repository-url>
-cd ai-assessment
+cd market-research-assistant
 ```
 
 ### Step 2 — Create and activate a virtual environment
