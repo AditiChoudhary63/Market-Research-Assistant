@@ -364,3 +364,22 @@ Every completed research run is saved verbatim (inputs, summary, validation resu
 - **LangSmith** — every pipeline run is traced with `run_name`, `tags`, and `metadata` (competitors, retry attempt, context chunk count). View traces at [smith.langchain.com](https://smith.langchain.com).
 - **Pipeline log** — `pipeline.log` captures all `INFO`/`ERROR` events from every node at runtime.
 - **FastAPI `/docs`** — interactive Swagger UI available at `/docs` for API exploration and manual testing.
+
+---
+
+## Generative AI Usage Disclosure
+
+The use of Generative AI tools is permitted and encouraged; accordingly, such tools were utilized during the development of this project. Their usage has been clearly and transparently documented below.
+
+The primary tool used was Cursor IDE, an AI-assisted development environment, which supported code generation, refactoring, and rapid prototyping. Generative AI was also used to assist with documentation drafting and architectural exploration.
+
+All AI-generated outputs were critically reviewed, tested, and modified as necessary. Final implementation decisions, validation, and system integration were performed independently to ensure correctness, reliability, and alignment with project requirements.
+
+*Summary of AI Usage:*
+
+* Code generation and scaffolding
+* Refactoring and optimization suggestions
+* Documentation assistance
+* High-level architectural guidance
+
+All AI-generated code was reviewed, tested, and adapted by the author. The overall architecture decisions, integration choices, and final implementation responsibility remain with the author.
